@@ -6,7 +6,7 @@ yarn
 
 ## Deploy
 
-yarn run truffle migrate --network sapphire
+`yarn run truffle migrate --network sapphire`
 
 ```
 sapphire-read > yarn run truffle migrate --network sapphire
@@ -52,12 +52,6 @@ Summary
 
 
 ✨  Done in 11.30s.
-```
-
-Explorer says
-
-```
-[Contract  0x6f6e63654f00000000000012f900000000000000  created]
 ```
 
 ## Test with truffle 👍
