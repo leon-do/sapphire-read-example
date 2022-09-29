@@ -15,7 +15,7 @@ async function main() {
 
   try {
     const myMeta = await contract["myMeta"]();
-    console.log(myMeta);
+    console.log(myMeta.toString());
   } catch (e) {
     console.error(e);
   }
